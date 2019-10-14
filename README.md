@@ -8,4 +8,4 @@
 
 ### Ce smecher ii sa faci commit-uri ###
 
-Woohooo
+uraaa
