@@ -9,3 +9,5 @@
 ### Ce smecher ii sa faci commit-uri ###
 
 uraaa
+
+_stiu sa scriu inclinat_
