@@ -12,4 +12,6 @@ uraaa
 
 _stiu sa scriu inclinat_
 
-# Titlu inspirat *
+# Titlu inspirat #
+
+## Titlu inspirat si mai gros ##
