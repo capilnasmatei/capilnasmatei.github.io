@@ -1,4 +1,4 @@
-document.getElementById("id_logic_version").innerHTML="Logic = 2019.11.04.4";
+document.getElementById("id_logic_version").innerHTML="Logic = 2019.11.04.5";
 
 window.addEventListener("deviceorientation", on_gyro_data_uab);
 window.addEventListener("devicemotion", on_acc_data_uab);
@@ -9,6 +9,7 @@ function deseneaza(unghi_x, unghi_y) {
 	var canvas = document.getElementById("id_canvas");
 	var context = canvas.getContext("2d");
 	var r = 10;
+	context.clearRect(0, 0, canvas.width, canvas.height);
 	//construim o cale
 	context.beginPath();
 	//adaugam un cerc la cale
@@ -26,6 +27,7 @@ function on_gyro_data_uab(e) {
 	document.getElementById("id_beta").innerHTML = Math.round(e.beta * 100) / 100;
 	document.getElementById("id_gamma").innerHTML = Math.round(e.gamma * 100) / 100;
 	
+	deseneaza(e.beta, e.gamma);
 	
 }
 
@@ -42,6 +44,4 @@ function on_acc_data_uab(e) {
 	
 	document.getElementById("id_rot_x").innerHTML = Math.round(rot_x * 100) / 100;
 	document.getElementById("id_rot_y").innerHTML = Math.round(rot_y * 100) / 100;
-	
-	deseneaza(e.rot_x, e.rot_y);
 }
