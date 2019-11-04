@@ -26,7 +26,6 @@ function on_gyro_data_uab(e) {
 	document.getElementById("id_beta").innerHTML = Math.round(e.beta * 100) / 100;
 	document.getElementById("id_gamma").innerHTML = Math.round(e.gamma * 100) / 100;
 	
-	deseneaza(e.beta, e.gamma);
 	
 }
 
@@ -43,4 +42,6 @@ function on_acc_data_uab(e) {
 	
 	document.getElementById("id_rot_x").innerHTML = Math.round(rot_x * 100) / 100;
 	document.getElementById("id_rot_y").innerHTML = Math.round(rot_y * 100) / 100;
+	
+	deseneaza(e.rot_x, e.rot_y);
 }
