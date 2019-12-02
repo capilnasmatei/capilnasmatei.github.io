@@ -60,7 +60,7 @@ function touch_move_uab(p){
 		context.fillStyle = last_position[index_t].color;
 		context.lineWidth = 20;
 		context.fill();
-		context.stroke;
+		context.stroke();
 		
 		last_position[index_t].x = t[i].pageX;
 		last_position[index_t].y = t[i].pageY;
