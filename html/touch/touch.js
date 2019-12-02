@@ -13,7 +13,7 @@ function get_random_color(){
 	
 	var caractere = "0123456789ABCDEF";
 	var culoare = "#";
-	for (var 1 = 0; i < 6; i++)
+	for (var i = 0; i < 6; i++)
 		culoare += caractere[Math.floor(Math.random() * 16)];
 	return culoare;
 }
