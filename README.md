@@ -31,3 +31,12 @@ Build: pentru web
 Foloseste: HTML5, CSS, JS, jQuery
 
 ![](img-aplicatii/player.PNG)
+
+
+
+### Materiale ajutatoare
+
+https://codepen.io/hossein_mhg/pen/eYYKJXd - inspiratie legata de design si cateva coduri ce CSS
+https://javascript30.com/ - partea legata de progrss bar-ul melodiei 
+https://www.youtube.com/watch?v=5lVQgZzLMHc - punct de plecare pentru aplicatia creata in Vue.js
+https://www.youtube.com/watch?v=Wy9q22isx3U&t=1286s - punct de plecare pentru aplicatia creata in Vue.js
