@@ -12,13 +12,7 @@ Descriere: Aplicatia se ocupa cu gestiunea studentilor. Contine o sectiune de lo
 
 Build: pentru web.
 
-Foloseste: 
-
-firebase database
-
-vue.js
-
-CSS
+Foloseste: firebase database, vue.js, CSS
 
 ### Folderul "aplicatie-mobil":
 
@@ -31,12 +25,4 @@ Autor: Capilnas Matei-Vasile
 Descriere: Un player muzical ce contine 12 melodii cu functia de stop, play, pause, prev, next si de modificare a volumului
 Build: pentru web
 
-Foloseste: 
-
-HTML5
-
-CSS
-
-JS
-
-jQuery
+Foloseste: HTML5, CSS, JS, jQuery
