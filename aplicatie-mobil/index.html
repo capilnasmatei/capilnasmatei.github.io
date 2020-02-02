@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="container">
+		<div id="audio-img">
+			<img class="cover">
+		</div>
+		<div id="audio-player">
+			<div id="audio-info">
+				<span class="artist"></span> - <span class="title"></span>
+			</div>
+			<input id="volume" type="range" min="0" max="10" value="5">
+			<br>
+			<div id="audio-buttons">
+				<button id="prev"></button>
+				<button id="play"></button>
+				<button id="pause"></button>
+				<button id="stop"></button>
+				<button id="next"></button>
+			</div>
+			<div class="clearfix"></div>
+			<div id="tracker">
+				<div id="progressbar">
+					<span id="progress"></span>
+				</div>
+				<span id="duration"></span>
+			</div>
+			<div class="clearfix"></div>
+			<ul id="playlist">
+				<li  song="Red Hot Chili Peppers - By The Way.mp3" cover="cover1.jpg" artist="Red Hot Chili Peppers">By The Way.mp3</li>
+				<li  song="Red Hot Chili Peppers - Californication.mp3" cover="cover1.jpg" artist="Red Hot Chili Peppers">Californication.mp3</li>
+				<li  song="Red Hot Chili Peppers - Dani California.mp3" cover="cover1.jpg" artist="Red Hot Chili Peppers">Dani California.mp3</li>
+				<li  song="Red Hot Chili Peppers - Dark Necessities.mp3" cover="cover1.jpg" artist="Red Hot Chili Peppers">Dark Necessities.mp3</li>
+				<li  song="Red Hot Chili Peppers - Give It Away.mp3" cover="cover1.jpg" artist="Red Hot Chili Peppers">Give It Away.mp3</li>
+				<li  song="Red Hot Chili Peppers - Otherside.mp3" cover="cover1.jpg" artist="Red Hot Chili Peppers">Otherside.mp3</li>
+				<li  song="Red Hot Chili Peppers - Scar Tissue.mp3" cover="cover1.jpg" artist="Red Hot Chili Peppers">Scar Tissue.mp3</li>
+				<li  song="Red Hot Chili Peppers - Snow (Hey Oh).mp3" cover="cover1.jpg" artist="Red Hot Chili Peppers">Snow (Hey Oh).mp3</li>
+				<li  song="Red Hot Chili Peppers - Tell Me Baby.mp3" cover="cover1.jpg" artist="Red Hot Chili Peppers">Tell Me Baby.mp3</li>
+				<li  song="Red Hot Chili Peppers - The Zephyr Song.mp3" cover="cover1.jpg" artist="Red Hot Chili Peppers">The Zephyr Song.mp3</li>
+				<li  song="Red Hot Chili Peppers - Under The Bridge.mp3" cover="cover1.jpg" artist="Red Hot Chili Peppers">Under The Bridge.mp3</li>
+			</ul>
+		</div>
+	</div>
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
