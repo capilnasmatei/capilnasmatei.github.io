@@ -1,6 +1,8 @@
 # capilnasmatei.github.io
 
-Folderul "static" contine varianta build for production a unei aplicatie de gestionare a studentilor. Deoarece github pages permite doar afisarea paginilor statice aplicatia nu se poate deschide decat de pe localhost sau daca este incarcata pe un site de host (ex:  Digital Ocean).
+### Folderul "static":
+
+Contine varianta build for production a unei aplicatie de gestionare a studentilor. Deoarece github pages permite doar afisarea paginilor statice aplicatia nu se poate deschide decat de pe localhost sau daca este incarcata pe un site de host (ex:  Digital Ocean).
 
 Nume proiect: Stud Manager
 
@@ -18,7 +20,9 @@ vue.js
 
 CSS
 
-Folderul "aplicatie-mobil" contine o aplicatie facuta in HTML, CSS si JS
+### Folderul "aplicatie-mobil":
+
+Contine o aplicatie facuta in HTML, CSS si JS
 
 Nume proiect: Music Player
 
