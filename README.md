@@ -29,3 +29,5 @@ Descriere: Un player muzical ce contine 12 melodii cu functia de stop, play, pau
 Build: pentru web
 
 Foloseste: HTML5, CSS, JS, jQuery
+
+![](img-aplicatii/player.PNG)
